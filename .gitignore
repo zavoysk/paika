@@ -1,0 +1,47 @@
+Computer@DESKTOP-KJ5BMPA MINGW64 ~ (master)
+$ git branch
+
+Computer@DESKTOP-KJ5BMPA MINGW64 ~ (master)
+$ git branch -M main
+
+Computer@DESKTOP-KJ5BMPA MINGW64 ~ (main)
+$ echo "# paika" >> README.md
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/zavoysk/paika.git
+git push -u origin main
+Computer@DESKTOP-KJ5BMPA MINGW64 ~ (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Computer/.git/
+
+Computer@DESKTOP-KJ5BMPA MINGW64 ~ (main)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+Computer@DESKTOP-KJ5BMPA MINGW64 ~ (main)
+$ git commit -m "first commit"
+[main (root-commit) bbfca80] first commit
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+
+Computer@DESKTOP-KJ5BMPA MINGW64 ~ (main)
+$ git branch -M main
+
+Computer@DESKTOP-KJ5BMPA MINGW64 ~ (main)
+$ git remote add origin https://github.com/zavoysk/paika.git
+
+Computer@DESKTOP-KJ5BMPA MINGW64 ~ (main)
+$ git push -u origin main
+fatal: unable to access 'https://github.com/zavoysk/paika.git/': Could not resolve host: github.com
+
+Computer@DESKTOP-KJ5BMPA MINGW64 ~ (main)
+$ git remote add origin https://github.com/zavoysk/paika.git
+git push -u origin mainerror: remote origin already exists.
+
+Computer@DESKTOP-KJ5BMPA MINGW64 ~ (main)
+$ git branch -M main
+
+Computer@DESKTOP-KJ5BMPA MINGW64 ~ (main)
+$ git push -u origin main
